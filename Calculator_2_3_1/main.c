@@ -3,13 +3,12 @@
 #include "lexicalanalyzer.h"
 #include "parser.h"
 int main() {
-    // lexicalanalyzer调试代码  注释parser调试代码，打开这段
+    // lexicalanalyzer调试代码  注释下面的代码，打开这段
 //    char buf[LINE_BUF_SIZE];
 //    while (fgets(buf, LINE_BUF_SIZE, stdin) != NULL) {
 //        parse_line(buf);
 //    }
 
-    // parser调试代码
     char line[LINE_BUF_SIZE];
     double value;
 
